@@ -5,6 +5,7 @@
  */
 package assignment2.thelearner;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -18,18 +19,20 @@ public class Course {
     List<Student> students;
 
     public void Course() {
-
+            students = new ArrayList<Student>();
     }
 
     public void Course(List<Student> students) {
-
+           this.students=students;
     }
 
-    public void add(Student student) {
+    public void add(Student students) {
+      
 
     }
 
     public void remove(String id) {
+       
 
     }
 
